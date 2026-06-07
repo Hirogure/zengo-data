@@ -2,7 +2,7 @@
   "meta": {
     "project": "禅語が届くだけ",
     "file": "zengo_master_300",
-    "version": "1.4",
+    "version": "1.5",
     "date": "2026-06-07",
     "range": "z001-z300",
     "count": 300,
@@ -12,7 +12,7 @@
       "転機": 50,
       "発見": 88
     },
-    "note": "batch1(v1.3)/2(v1.1)/3(v1.1)/4(v1.1)/5(v1.0)/6(v1.1)/7(v1.0)を統合した正本。z150のsource更新（2026-06-07確定）反映済。以降の正本はこのファイルとし、個別batchファイルはアーカイブ扱い／v1.1: 出典一次照合S1反映（52件をsource_verified=true化・source文面確定）。保留: z060・z203（裏付け取れず再照合行き）。v1.2: z123を「雪消山骨露」に修正（語形疑義の解消・tags秋→冬・verified=true化）、z080に表記注記追記、z204/z284/z285のlabelを「昔の漢詩から」に変更。v1.3: z060→「大用現前」（碧巌録垂示・転機/通年）、z203→「春来草自生」（禅林句集所収・肯定/通年→春）に差し替え。両語verified=true。これでverified=55件・残り照合対象75件（S2/S3。z216水到渠成は景徳伝灯録の問答出典の手がかりあり）／v1.4: 出典一次照合S2反映（38件をsource_verified=true化・source文面確定）。B群33件＋C群5件。z036・z051は典籍裏付け不可のため弱め文面で確定（z036=禅林・茶席で夏に用いられる句／z051=現代の禅語書で広く親しまれる語）。z094 label→昔の漢詩から（論衡由来）、z136 label→禅僧のことばから（如浄の偈）。z115は辞典所収形「歩歩清風起」との語順揺れをsourceに注記。z161のreading「けんせき（けんしゃく）」のうち「けんしゃく」は今回裏付け取れず（確認できたのは「けんぜき／けんせき」・値は未変更・要判断）。z113の日本語読みは裏付け未取得（reading現状維持）。残り照合対象37件はS3（z148/z149は対句連続処理、z216は景徳伝灯録手がかりあり）"
+    "note": "batch1(v1.3)/2(v1.1)/3(v1.1)/4(v1.1)/5(v1.0)/6(v1.1)/7(v1.0)を統合した正本。z150のsource更新（2026-06-07確定）反映済。以降の正本はこのファイルとし、個別batchファイルはアーカイブ扱い／v1.1: 出典一次照合S1反映（52件をsource_verified=true化・source文面確定）。保留: z060・z203（裏付け取れず再照合行き）。v1.2: z123を「雪消山骨露」に修正（語形疑義の解消・tags秋→冬・verified=true化）、z080に表記注記追記、z204/z284/z285のlabelを「昔の漢詩から」に変更。v1.3: z060→「大用現前」（碧巌録垂示・転機/通年）、z203→「春来草自生」（禅林句集所収・肯定/通年→春）に差し替え。両語verified=true。これでverified=55件・残り照合対象75件（S2/S3。z216水到渠成は景徳伝灯録の問答出典の手がかりあり）／v1.4: 出典一次照合S2反映（38件をsource_verified=true化・source文面確定）。B群33件＋C群5件。z036・z051は典籍裏付け不可のため弱め文面で確定（z036=禅林・茶席で夏に用いられる句／z051=現代の禅語書で広く親しまれる語）。z094 label→昔の漢詩から（論衡由来）、z136 label→禅僧のことばから（如浄の偈）。z115は辞典所収形「歩歩清風起」との語順揺れをsourceに注記。z161のreading「けんせき（けんしゃく）」のうち「けんしゃく」は今回裏付け取れず（確認できたのは「けんぜき／けんせき」・値は未変更・要判断）。z113の日本語読みは裏付け未取得（reading現状維持）。残り照合対象37件はS3（z148/z149は対句連続処理、z216は景徳伝灯録手がかりあり） / v1.5: S3一次照合37件完了（全件source確定・true化。典籍裏付け不可6件と出典の格が弱い4件はひろ承認の上、事実の範囲の文面で確定）。z113・z161に読み注記を追記。これでsource_check_needed=0、全300語照合完了。 / v1.5修正: z113・z161のユーザー向けsourceから「未取得/未確認」表記を削除（内部管理メモ: z113の読み「けつそくぼだい」は慣用・辞典裏付けなし／z161のreadingから裏付けの取れない「けんしゃく」を外し「けんせき（けんぜき）」とした）。z245のlabelを「お経から」に変更。"
   },
   "entries": [
     {
@@ -2418,15 +2418,15 @@
       "id": "z148",
       "term": "人人具足",
       "reading": "にんにんぐそく",
-      "source": "禅録の対句（箇箇円成と対・出典特定要）",
-      "source_check_needed": true,
+      "source": "禅録の対句「人人具足、箇箇円成」の前半。『碧巌録』第六二則の評唱に見え、抜隊禅師『塩山和泥合水集』にも用いられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "人はそれぞれ、すでに必要なものを具えている。足りないものを数える目は細かく働くのに、備わっているものは当たり前すぎて目録に載らない。在庫の確認がいちばん遅れるのは、自分という蔵らしい。",
       "axis": "肯定",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 4
     },
@@ -2434,15 +2434,15 @@
       "id": "z149",
       "term": "箇箇円成",
       "reading": "ここえんじょう",
-      "source": "禅録の対句（人人具足と対・出典特定要）",
-      "source_check_needed": true,
+      "source": "禅録の対句「人人具足、箇箇円成」の後半。『碧巌録』第六二則の評唱に見え、『塩山和泥合水集』にも用いられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "ひとつひとつが、それぞれの形で完成している。比べはじめると未完成の列に見えるものも、一個ずつ取り出せば、どれも欠けるところなく出来上がっている。円は大小を問わず、円として閉じている。",
       "axis": "肯定",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 4
     },
@@ -2514,15 +2514,15 @@
       "id": "z154",
       "term": "茶禅一味",
       "reading": "ちゃぜんいちみ",
-      "source": "茶の湯の伝承句（帰属に諸説）",
-      "source_check_needed": true,
+      "source": "茶の湯と禅の一体をいう語。大林宗套が武野紹鴎像に与えた賛「料知茶味同禅味」にこの思想が見える（圜悟克勤の墨蹟伝来説は伝承）",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "茶と禅は、ひとつの味だと言い伝えられてきた。一服の茶を点てる所作の中に、坐ることと同じ静けさが含まれている。日々の飲みものが、そのまま深いところへ通じる入口になる。",
       "axis": "肯定",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "茶の湯のことばから",
       "batch": 4
     },
@@ -2625,7 +2625,7 @@
     {
       "id": "z161",
       "term": "見跡",
-      "reading": "けんせき（けんしゃく）",
+      "reading": "けんせき（けんぜき）",
       "source": "廓庵『十牛図』の第二図。牛の足跡を見出す段（読みは「けんぜき」「けんせき」両用）",
       "source_check_needed": false,
       "tags": [
@@ -3078,8 +3078,8 @@
       "id": "z189",
       "term": "帰家穏坐",
       "reading": "きかおんざ",
-      "source": "禅録の語",
-      "source_check_needed": true,
+      "source": "『碧巌録』に見える語（第十四則とされる）。『禅林句集』等にも収められ、本来の自己に帰り安らかに坐ることをいう",
+      "source_check_needed": false,
       "tags": [
         "通年",
         "夜"
@@ -3087,7 +3087,7 @@
       "gloss": "外でのつとめを終えて、家に帰り、穏やかに坐る。探しまわる旅が終わった人の、いちばん静かな姿。落ち着き先はどこか遠くにあるものと思っていたら、帰る家は、はじめからここにあった。",
       "axis": "受容",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3095,15 +3095,15 @@
       "id": "z190",
       "term": "耕雲種月",
       "reading": "こううんしゅげつ",
-      "source": "禅録・茶掛けの語（典拠要整理）",
-      "source_check_needed": true,
+      "source": "禅の境涯を示す茶掛けの語。道元の偈「釣月耕雲、古風を慕う」と同じ心を伝える表現として親しまれる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "雲を耕し、月に種を播く。収穫を数える畑仕事なら、こんな働き方はありえない。それでも山里の暮らしには、儲けにならないのに心を養う仕事がある。実りの量で測らない働きが、人を静かに肥やす。",
       "axis": "受容",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3128,14 +3128,14 @@
       "term": "一汁一菜",
       "reading": "いちじゅういっさい",
       "source": "禅院の食制に由来する語",
-      "source_check_needed": true,
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "汁が一椀、菜が一皿。それに飯があれば、食事はもう成り立っている。品数が足りないのではなく、これで足りている形。足りる量を知っている食卓は、質素というより、静かで豊かに見える。",
       "axis": "受容",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3143,15 +3143,15 @@
       "id": "z193",
       "term": "焚香",
       "reading": "ふんこう",
-      "source": "禅院の所作の語",
-      "source_check_needed": true,
+      "source": "仏前で香をたくことをいう仏教語（焼香に同じ）",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "香を一本焚いて、坐る。煙はまっすぐに昇り、香りは部屋の隅まで静かに広がる。火をつけるという小さな手順が、ここからは別の時間という区切りになる。場は、道具ひとつで切り替わる。",
       "axis": "受容",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3175,15 +3175,15 @@
       "id": "z195",
       "term": "水流花開",
       "reading": "みずながれはなひらく（すいりゅうかかい）",
-      "source": "茶掛けの句（聯句由来説あり・要整理）",
-      "source_check_needed": true,
+      "source": "茶掛けで広く親しまれる句。水は流れ花は開くという、自然のはたらきのままなる境地をいう",
+      "source_check_needed": false,
       "tags": [
         "春"
       ],
       "gloss": "水は淡々と流れ、花は淡々と開く。互いに相談もしないし、競いもしない。それぞれが自分の仕事をしているだけで、景色の全体は調っている。示し合わせのない調和が、いちばん長持ちする。",
       "axis": "受容",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "茶の湯のことばから",
       "batch": 5
     },
@@ -3239,15 +3239,15 @@
       "id": "z199",
       "term": "両忘",
       "reading": "りょうぼう",
-      "source": "禅録の語（是非両忘・語形要整理）",
-      "source_check_needed": true,
+      "source": "『荘子』大宗師篇の「両ながら忘れて」に遡る語。禅では是非・善悪など相対の両極を忘れ去る境地をいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "正しいか、間違いか。その両方を、いったん忘れる。白黒をつける裁判を心の中で開いているあいだは、目の前のことがよく見えない。是も非も置いたところから眺めると、ものごとは思ったより単純な姿をしている。",
       "axis": "肯定",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3431,15 +3431,15 @@
       "id": "z211",
       "term": "一笑千山青",
       "reading": "いっしょうすればせんざんあおし",
-      "source": "禅録の偈（典拠要整理）",
-      "source_check_needed": true,
+      "source": "現代の禅語書で広く親しまれる句。ひとたび笑えば千の山が青く晴れわたる境地をいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "ふっと笑った、その瞬間に、連なる山々が青く見えた。山は前から青かったのに、こわばった目には映っていなかった。表情がほどけると、視界のほうが先に広がることがある。",
       "axis": "転機",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3513,15 +3513,15 @@
       "id": "z216",
       "term": "水到渠成",
       "reading": "みずいたってきょなる（すいとうきょせい）",
-      "source": "禅録の語（禅録での用例特定は要一次照合）",
-      "source_check_needed": true,
+      "source": "蘇軾「答秦太虚書」を典拠とする語。水が到れば自然に溝が成るように、機が熟せば物事は自ずから成就することをいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "水が流れてくれば、溝はおのずとできあがる。立派な溝を掘り終えてから水を待つ、という順番だけが正解とは限らない。流れが先に始まり、道筋のほうが後から整ってくることがある。",
       "axis": "転機",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3626,15 +3626,15 @@
       "id": "z223",
       "term": "自他不二",
       "reading": "じたふに",
-      "source": "仏教の教義語（典拠要整理）",
-      "source_check_needed": true,
+      "source": "自己と他者が二つでないことをいう大乗仏教の教義語。天台の「十不二門」の一つにも数えられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "自分と他人は、二つに分かれたものではない。相手の機嫌が部屋の空気になり、こちらの一言が相手の一日を変える。境界線は、思っているよりずっと薄い。薄いと知っている人は、人にも自分にもやさしくなる。",
       "axis": "発見",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "お経から",
       "batch": 5
     },
@@ -3707,15 +3707,15 @@
       "id": "z228",
       "term": "触目菩提",
       "reading": "そくもくぼだい",
-      "source": "禅録の語（大蔵経DBで実在確認済・箇所特定は一次照合）",
-      "source_check_needed": true,
+      "source": "禅録に見える語。目に触れるものすべてがそのまま菩提（悟り）であることをいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "目に触れるものが、ことごとく目覚めの種になっている。特別な教材を待たなくても、湯呑みひとつ、窓の光ひとつが、すでにその種。見るものに不足はない。足りないのは、立ち止まって見る間のほうかもしれない。",
       "axis": "発見",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "source_label": "禅僧のことばから",
       "batch": 5
     },
@@ -3773,14 +3773,14 @@
       "reading": "じせついんねん",
       "axis": "受容",
       "source_label": "禅僧のことばから",
-      "source": "禅録に見える語（出典確認中）",
-      "source_check_needed": true,
+      "source": "「仏性の義を知らんと欲せば、当に時節因縁を観ずべし」の句に由来する語。道元『正法眼蔵』仏性巻で主題的に論じられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "物事には熟す時がある、という見方。蕾は急かしても開かず、開く朝が来れば、誰が止めても開く。遅れているように見える日々も、熟すまでの時間のうちに、ちゃんと数え入れられている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -3853,15 +3853,15 @@
       "reading": "あめをきいてかんこうつく",
       "axis": "受容",
       "source_label": "古い禅の句集から",
-      "source": "「開門落葉多」と対をなす句（唐の僧の詩・禅林句集経由・出典確認中）",
-      "source_check_needed": true,
+      "source": "唐の詩僧・無可の詩に由来し、『大燈国師語録』にも見える句。「開門落葉多」と対をなす",
+      "source_check_needed": false,
       "tags": [
         "冬",
         "夜"
       ],
       "gloss": "雨の音を聴くうちに、寒い夜が更けて明けてゆく。戸を開けると降っていたのは落ち葉だった、と続く句の、まだ気づく前の場面。雨と思いこんで聴いた音も、夜をしずかに満たしていたことに変わりはない。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -3870,14 +3870,14 @@
       "reading": "かぜさだまってはななおおつ",
       "axis": "受容",
       "source_label": "古い禅の句集から",
-      "source": "「鳥啼山更幽」と対で伝わる句（禅林句集収録・出典確認中）",
-      "source_check_needed": true,
+      "source": "王安石が古人の句を集めた集句として伝わる対句の前半（後半「鳥鳴山更幽」は王籍の句。「鳴/啼」に語形の揺れ）",
+      "source_check_needed": false,
       "tags": [
         "春"
       ],
       "gloss": "風がやんでも、花はなお落ちる。散りざかりの花は、風のせいだけで散っていたわけではなかった。風さえやめば止まるはず、という見立てを離れて、物事には物事の進む速さがあり、静かな日にも花は静かに落ちる。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -3886,14 +3886,14 @@
       "reading": "みずながれてもとうみにいる",
       "axis": "受容",
       "source_label": "古い禅の句集から",
-      "source": "「月落不離天」と対で伝わる句（禅録・出典確認中）",
-      "source_check_needed": true,
+      "source": "福厳守初の語「水流元在海、月落不離天」として『五灯会元』に見える対句の前半（「在/入」に語形の揺れ）。「月落不離天」と対",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "水は流れて、もとの海へ入る。途中の川筋がどれほど曲がっても、行き着く先は、はじめから海と決まっている。遠回りに見えた流れも、海の側から眺めれば、帰り道をまっすぐ進んでいたことになる。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -3953,14 +3953,14 @@
       "reading": "やましずかなることたいこのごとし",
       "axis": "受容",
       "source_label": "昔の漢詩から",
-      "source": "唐庚「酔眠」の句（原詩は「山静似太古」・「如/似」に揺れ・出典確認中）",
-      "source_check_needed": true,
+      "source": "北宋・唐庚の詩「酔眠」の起句「山静似太古、日長如小年」に由来（茶掛けでは「如」に作ることもある）",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "山の静けさは、太古からそのまま続いているかのよう。麓で時代がいくら入れ替わっても、山の中の時間は同じ速さで流れている。人の暦の外で続いてきた静けさに、半日だけ間借りするような日もある。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -3985,15 +3985,15 @@
       "term": "即事而真",
       "reading": "そくじにしん",
       "axis": "肯定",
-      "source_label": "禅僧のことばから",
-      "source": "『肇論』の「触事而真」と同系の語（語形に揺れ・出典確認中）",
-      "source_check_needed": true,
+      "source_label": "お経から",
+      "source": "『肇論』の「触事而真」に発し、華厳・密教で説かれる教義語。現実の事物がそのまま真理であることをいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "目の前の事が、そのまま真実。真実はどこか奥の部屋にしまわれているのではなく、いま手元で起きている出来事の側にある。皿を洗えば皿洗いが、湯を沸かせば立つ湯気が、そのまま本物でいる。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4002,14 +4002,14 @@
       "reading": "ほんじふうこう",
       "axis": "肯定",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（出典確認中）",
-      "source_check_needed": true,
+      "source": "禅録に見える語。本来の自己のありのままの姿（本来面目）をいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "生まれつき備わっている、もとからの景色。よその庭がどれほど立派に見える日でも、自分の足元の土地には、最初から固有の風が吹き、固有の光が差している。手入れの前に、まず土地がある。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4034,14 +4034,14 @@
       "reading": "ほうに",
       "axis": "肯定",
       "source_label": "お経から",
-      "source": "仏典の語（「法爾自然」など・出典確認中）",
-      "source_check_needed": true,
+      "source": "「法として爾る」意の仏教語。本来あるがままの姿をいい、親鸞の「自然法爾」でも知られる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "おのずから、そうである。火が熱く、水が低いほうへ流れることに、理由の説明書きは付いていない。人がひと息に眠り、朝に目を覚ますことも同じ並びにあり、そうであるために、許可はどこにも要らない。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4114,14 +4114,14 @@
       "reading": "じしょうしょうじょう",
       "axis": "肯定",
       "source_label": "お経から",
-      "source": "仏典・禅録に通底する教義語（出典確認中）",
-      "source_check_needed": true,
+      "source": "心が本来清浄であることをいう仏教の教義語。『勝鬘経』に「自性清浄章」があり、心性本浄説として初期仏典に遡る",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "もとからの性質は、清らかなまま汚れていない、という見方。曇った鏡の曇りは表面に乗っているだけで、鏡そのものに染み込んではいない。拭く前から、映す力のほうは一度も失われていない。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4130,14 +4130,14 @@
       "reading": "こうみょうぞう",
       "axis": "肯定",
       "source_label": "お経から",
-      "source": "仏典・禅録の語（出典確認中）",
-      "source_check_needed": true,
+      "source": "仏の光明をすべて蔵する本源をいう語。永平寺二世・懐奘の『光明蔵三昧』に「光明蔵とは、諸仏の本源、衆生の本有」と説かれる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "光の蔵が、外でなく内にある、という言い方。照らしてもらうのを待つ場所に、人は立っていない。暗く感じる日にも蔵が空になったわけではなく、戸の開け方を忘れているだけのことが多い。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4162,14 +4162,14 @@
       "reading": "でんとう",
       "axis": "肯定",
       "source_label": "禅僧のことばから",
-      "source": "仏典・禅録の語（灯史の書名にも・出典確認中）",
-      "source_check_needed": true,
+      "source": "仏法を灯火にたとえ、師から弟子へ正法を伝えることをいう仏教語。『景徳伝灯録』など灯史の書名にも用いられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "灯から灯へ、火を移すように受け継がれてゆくもの。火を分けても、もとの灯は減らない。教わったことを誰かに手渡すとき、人は減る側に立っておらず、渡したぶんだけ、灯の長い通り道になっている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4194,14 +4194,14 @@
       "reading": "むぜん",
       "axis": "肯定",
       "source_label": "お経から",
-      "source": "仏典・禅録の語（出典確認中）",
-      "source_check_needed": true,
+      "source": "染（けがれ）の無いことをいう仏教語。「不染」と同義で、『勝鬘経』の説く自性清浄の教えに連なる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "触れても、染まらない。蓮の葉に乗った水が、玉のまま転がり落ちるように、まわりの色に浸かりながら芯まで浸からない性質が、人にも備わっている。汚れたと感じる日にも、染まり切らない部分は残っている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4291,14 +4291,14 @@
       "reading": "けんがいさっしゅ",
       "axis": "転機",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（出典確認中）",
-      "source_check_needed": true,
+      "source": "「懸崖に手を撒つ」と読む禅録の語。『無門関』第三二則に見え、「懸崖撒手、自肯承当」の句として知られる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "崖っぷちで、つかんでいた手をぱっと放す。落ちないために握ってきた手が、いつのまにか、動けない理由のほうに入れ替わっていることがある。放した人の話として、禅の古い記録は、場面を何度も語ってきた。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4371,14 +4371,14 @@
       "reading": "でいおおければほとけだい",
       "axis": "発見",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（「水長船高」と対・出典確認中）",
-      "source_check_needed": true,
+      "source": "禅僧の語として親しまれる対句「泥多ければ仏大なり、水長ければ船高し」の前半。煩悩の泥が多いほど悟りも大きいと説く",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "泥が多いほど、大きな仏像が造れる。厄介ごとの山を、像の材料の側から数え直した言い方。減らしたかったものの山が、別の作業場では元手の山として置かれていることに、造る人だけが気づいている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4387,14 +4387,14 @@
       "reading": "みずながければふねたかし",
       "axis": "発見",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（「泥多仏大」と対・出典確認中）",
-      "source_check_needed": true,
+      "source": "禅僧の語として親しまれる対句「泥多ければ仏大なり、水長ければ船高し」の後半。水かさが増せば船も高く浮かぶことをいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "水かさが増せば、船はそのぶん高く浮かぶ。押し寄せるものを、沈む理由と読むか、浮かぶ力と読むか。船は議論に加わらず、増えた水の上で、増えたぶんの高さに、静かに浮いている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4451,14 +4451,14 @@
       "reading": "さんじゅうねんらいじんけんかく",
       "axis": "発見",
       "source_label": "禅僧のことばから",
-      "source": "霊雲志勤の悟道の偈の起句（語形に揺れ・出典確認中）",
-      "source_check_needed": true,
+      "source": "霊雲志勤が桃花を見て悟った折の偈の起句。『景徳伝灯録』巻十一に見え、道元『正法眼蔵』にも引かれる（「落葉/葉落」に語形の揺れ）",
+      "source_check_needed": false,
       "tags": [
         "春"
       ],
       "gloss": "三十年、剣を探す者のように求めつづけた人が、ある春、桃の花が咲くのを見て長い疑いを終えたと伝わる。三十年は無駄足ではなく、花一輪で開く戸の、立て付けを直しつづけた年月だった。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4483,14 +4483,14 @@
       "reading": "とかくきもう",
       "axis": "発見",
       "source_label": "お経から",
-      "source": "仏典・禅録に見える喩え（出典確認中）",
-      "source_check_needed": true,
+      "source": "実在しないもののたとえ。『首楞厳経』等の仏典に「亀毛兎角」として見え、禅僧の語録にもこの語形で用いられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "兎の角と、亀の毛。どこにも実物がないのに、言葉のほうは平気な顔で存在している。世の悩みのいくらかは、同じ仕組みで、名前だけが先に生えてきたものだと、古い人たちは見抜いていた。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4531,14 +4531,14 @@
       "reading": "むくてき",
       "axis": "発見",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（「無弦琴」と対で語られる・出典確認中）",
-      "source_check_needed": true,
+      "source": "禅録の語。穴のない笛という、吹きようのないものを吹く禅の境地をいい、禅僧語録の書名にも用いられた",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "穴のひとつもない笛を吹く。指の押さえどころも息の通り道もない楽器が、禅では立派に鳴ることになっている。うまい下手の物差しが届かない場所で鳴る音を、笛のほうは最初から知っている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 6
     },
     {
@@ -4564,14 +4564,14 @@
       "reading": "しちゅうのさんきょ",
       "axis": "受容",
       "source_label": "茶の湯のことばから",
-      "source": "茶の湯の理想を言った語（出典確認中）",
-      "source_check_needed": true,
+      "source": "室町時代のわび茶で、市中にありながら山里の風情を備えた草庵茶室を呼んだ語。『二水記』に宗珠の茶亭を「市中の隠」と評した記事がある",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "街なかに住んだまま、山ごもりの静けさを暮らしに持つ。茶人たちは路地の奥に小さな庵を結び、雑踏の数歩さきに山の時間をつくった。静けさは土地の名物と限らず、住む人の側にも置くことができる。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     },
     {
@@ -4580,14 +4580,14 @@
       "reading": "ほうさきっさ",
       "axis": "受容",
       "source_label": "禅僧のことばから",
-      "source": "「逢茶喫茶 遇飯喫飯」の前半（禅録・出典確認中）",
-      "source_check_needed": true,
+      "source": "瑩山紹瑾が師・徹通義介に悟境を示した語「茶に逢うては茶を喫し、飯に逢うては飯を喫す」として伝わる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "茶に出逢えば、茶を飲む。飯に出逢えば飯を食う、と続く言い回しの前半。目の前に来たものを、来た順に受け取るだけの暮らしが、禅では一人前の暮らしとして数えられている。先の献立は、先に任せておく。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     },
     {
@@ -4645,14 +4645,14 @@
       "reading": "くもゆうゆうみずせんせん",
       "axis": "受容",
       "source_label": "古い禅の句集から",
-      "source": "禅録・禅林句集系に見える句（出典確認中）",
-      "source_check_needed": true,
+      "source": "禅林・茶席で親しまれる句。悠々と浮かぶ雲とさらさら流れる水、静と動が一つである境地をいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "雲はゆったりと流れ、水はさらさらと鳴る。空の上と足元とで速さはまるで違うのに、どちらも急いでおらず、どちらも遅れていない。それぞれの速さのままで、景色はひとつに成り立っている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     },
     {
@@ -4773,14 +4773,14 @@
       "reading": "てつじゅかいか",
       "axis": "転機",
       "source_label": "禅僧のことばから",
-      "source": "禅録の語（出典確認中）",
-      "source_check_needed": true,
+      "source": "『五灯会元』に見える語。鉄の樹に花が開くという、あり得ないことが現じる大悟の機をいう",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "鉄でできた樹に、花が咲く。起こるはずのないことの言い換えとして使われながら、禅録では、咲いた場面の言葉として残っている。あり得ない、という判定には、いつも判定した日の日付が付いている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     },
     {
@@ -4805,14 +4805,14 @@
       "reading": "つうしんこれしゅげん",
       "axis": "発見",
       "source_label": "禅の問答から",
-      "source": "『碧巌録』の問答に見える句（「遍身/通身」の語形併存・出典確認中）",
-      "source_check_needed": true,
+      "source": "『碧巌録』第八九則「雲巌大悲手眼」の問答に見える句。「遍身/通身」の対比が核心で、道元『正法眼蔵』にも取り上げられる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "全身が、手であり眼である。眠る人の枕を夜中にそっと直す手つきのように、考えるより先に体が動くとき、手は手の役を超え、体じゅうが目になっている。親切は、頭より先に体の側で起きている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     },
     {
@@ -4869,14 +4869,14 @@
       "reading": "いちじふせつ",
       "axis": "発見",
       "source_label": "禅僧のことばから",
-      "source": "「四十九年一字不説」と伝わる言い回し（禅録・出典確認中）",
-      "source_check_needed": true,
+      "source": "『楞伽経』の「不説一字」に基づく語。釈尊は四十九年説法しながら一字も説かなかったと伝え、不立文字の思想の根拠とされる",
+      "source_check_needed": false,
       "tags": [
         "通年"
       ],
       "gloss": "生涯にわたって説きつづけた人が、ふり返って、一字も説かなかった、と言ったと伝わる。言葉にできたのは道案内の部分で、肝心の場所そのものは、最後まで言葉の外に残ったから。説いた言葉の山の頂に、説かなかった一字が載っている。",
       "draw_only": false,
-      "source_verified": false,
+      "source_verified": true,
       "batch": 7
     }
   ]
